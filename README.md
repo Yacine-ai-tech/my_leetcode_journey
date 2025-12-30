@@ -15,36 +15,25 @@ my_leetcode_journey/
 │   │   └── cpp/
 │   │       └── solution.cpp
 │   └── ...
-├── templates/
-│   ├── java_template.java
-│   ├── python_template.py
-│   └── cpp_template.cpp
-├── scripts/
-│   └── create_problem.py
 ├── .gitignore
 └── README.md
 ```
 
 - `problems/`: Contains folders for each LeetCode problem, named by problem number and title (e.g., `0001-two-sum`).
-- `templates/`: Template files for each language to start new solutions.
-- `scripts/`: Utility scripts for managing the repository.
 
 ## How to Add a New Problem
 
-1. Use the `create_problem.py` script to create a new problem folder:
-   ```
-   python scripts/create_problem.py <problem_number> "<problem_title>"
-   ```
-   For example:
-   ```
-   python scripts/create_problem.py 0002 "Add Two Numbers"
-   ```
+1. Create a new folder in `problems/` named `<problem_number>-<problem_title>` (e.g., `0002-add-two-numbers`).
 
-2. Copy the problem description from LeetCode and add it as a comment at the top of each solution file.
+2. Inside the folder, create subfolders for each language: `java/`, `python/`, `cpp/`.
 
-3. Implement the solution in Java, Python, and C++ using the templates.
+3. Add solution files: `Solution.java`, `solution.py`, `solution.cpp`.
 
-4. Test your solutions and commit the changes.
+4. Copy the problem description from LeetCode and add it as a comment at the top of each solution file.
+
+5. Implement the solution in Java, Python, and C++.
+
+6. Test your solutions and commit the changes.
 
 ## Languages
 
