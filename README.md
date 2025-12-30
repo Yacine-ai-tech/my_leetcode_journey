@@ -1,6 +1,6 @@
 # My LeetCode Journey
 
-This repository contains my solutions to LeetCode problems, implemented in Java, Python, and C++. The goal is to solve every problem on LeetCode across these three languages to improve coding skills and algorithmic thinking.
+Welcome to my comprehensive LeetCode solutions repository! This collection showcases my implementations of LeetCode problems across three programming languages: Java, Python, and C++. Each problem is solved in all three languages to demonstrate different approaches and coding paradigms, serving as both a learning resource and a portfolio of algorithmic problem-solving skills.
 
 ## Repository Structure
 
@@ -19,47 +19,29 @@ my_leetcode_journey/
 └── README.md
 ```
 
-- `problems/`: Contains folders for each LeetCode problem, named by problem number and title (e.g., `0001-two-sum`).
+- `problems/`: Organized collection of LeetCode problems, each in its own folder named by problem number and title (e.g., `0001-two-sum`).
 
-## How to Add a New Problem
+## Languages Used
 
-1. Create a new folder in `problems/` named `<problem_number>-<problem_title>` (e.g., `0002-add-two-numbers`).
+- **Java**: Object-oriented solutions with clean, maintainable code following Java best practices.
+- **Python**: Concise, readable implementations leveraging Python's expressive syntax.
+- **C++**: High-performance solutions optimized for efficiency and memory usage.
 
-2. Inside the folder, create subfolders for each language: `java/`, `python/`, `cpp/`.
+## Code Quality Standards
 
-3. Add solution files: `Solution.java`, `solution.py`, `solution.cpp`.
+- Comprehensive documentation with problem descriptions, examples, and approach explanations.
+- Time and space complexity analysis for each solution.
+- Consistent naming conventions and clean code principles.
+- Solutions are thoroughly tested and optimized where possible.
 
-4. Copy the problem description from LeetCode and add it as a comment at the top of each solution file.
+## Purpose
 
-5. Implement the solution in Java, Python, and C++.
-
-6. Test your solutions and commit the changes.
-
-## Languages
-
-- **Java**: Solutions in Java, following standard coding practices.
-- **Python**: Pythonic solutions, focusing on readability.
-- **C++**: Efficient C++ implementations.
-
-## Contribution Guidelines
-
-- Each problem should have solutions in all three languages.
-- Include comments explaining the approach and time/space complexity.
-- Follow the naming conventions: `Solution.java`, `solution.py`, `solution.cpp`.
-- Keep code clean and well-documented.
-
-## Pushing from LeetCode
-
-To push your solutions from LeetCode:
-
-1. Solve the problem on LeetCode.
-2. Copy the code from LeetCode's editor.
-3. Paste into the appropriate file in this repository.
-4. Add problem description and comments.
-5. Commit and push to GitHub.
-
-For bulk uploads, you can manually copy multiple solutions or use scripts if available.
+This repository serves as:
+- A personal archive of solved LeetCode problems
+- A reference for different language implementations of the same algorithms
+- A demonstration of coding proficiency across multiple paradigms
+- A resource for learning and comparing programming language approaches
 
 ## License
 
-This repository is for personal learning purposes. Solutions are based on LeetCode problems.
+This repository is maintained for educational and portfolio purposes. All solutions are original implementations based on LeetCode problem specifications.
